@@ -1,5 +1,5 @@
 //---------------------------1---------------------------------//
-// doira = {
+// const doira = {
 //   PI: 3.14,
 //   //   getInfo() {
 //   //     console.log(`PI = ${this.PI}, Radius = ${this.radius}`);
@@ -17,7 +17,7 @@
 // doira.findArea();
 
 //-------------------------2------------------------------------//
-// colors = {
+// const colors = {
 //   red: "qizil",
 //   green: "yashil",
 //   InvertKeyValue() {
@@ -33,4 +33,30 @@
 // colors.InvertKeyValue();
 // console.log(colors);
 
-//-------------------------3------------------------------------//
+//-------------------------3-----------------------------------//
+// function findMostFrequentValue(data) {
+//   let count = {};
+//   let maxCount = 0;
+//   let mostFrequent;
+
+//   for (const key in data) {
+//     let value = data[key];
+
+//     if (count[value] === undefined) {
+//       count[value] = 1;
+//     } else {
+//       count[value]++;
+//     }
+
+//     if (count[value] > maxCount) {
+//       maxCount = count[value];
+//       mostFrequent = value;
+//     }
+//   }
+
+//   return mostFrequent;
+// }
+
+// const data = { a: 3, b: 5, c: 3, d: 7, e: 5, f: 5 };
+
+// console.log(findMostFrequentValue(data));
