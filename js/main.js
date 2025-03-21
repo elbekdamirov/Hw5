@@ -16,5 +16,21 @@
 // doira.addRadius = 5;
 // doira.findArea();
 
-
 //-------------------------2------------------------------------//
+// colors = {
+//   red: "qizil",
+//   green: "yashil",
+//   InvertKeyValue() {
+//     let temp;
+//     for (const key in this) {
+//       temp = this[key];
+//       delete this[key];
+//       this[temp] = key;
+//     }
+//   },
+// };
+
+// colors.InvertKeyValue();
+// console.log(colors);
+
+//-------------------------3------------------------------------//
